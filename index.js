@@ -31,7 +31,7 @@ app.use(function(req, res, next) {
 
 
     V = V.toLowerCase();
-
+    //using date functions
     Date.prototype.addDays = function(days) {
         var date = new Date(this.valueOf());
         date.setDate(date.getDate() + days);
